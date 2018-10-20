@@ -1,0 +1,89 @@
+@media only screen and (max-width: 600px) {
+    #nav-bar {
+        width: 100%;
+        font-size: 15px;
+    }
+    #header-img {
+        padding-top: 15px;
+        display: flex;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+    #products{
+        flex-direction: column;
+    }
+    h1 {
+        position: relative;
+        margin-top: 50px;
+    }
+}
+body {
+    padding: 0;
+    font-size: 16px;
+    background-image: url(images/blocks.png);
+    background-repeat: no-repeat;
+    background-size: 100% 300px;
+}
+#nav-bar {
+    max-height: 50px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding-right: 5px;
+    text-align: center;
+    border-radius: 0px 0px 90px 90px;
+    border-bottom-style: solid;
+    border-color: #fcb316;
+    background: #e6c884;
+}
+#nav-bar li {
+    display: inline-block;
+}
+#nav-bar a {
+    color: #363a4e;
+    padding-right: 20px;
+}
+.form-box {
+    text-align: center;
+    margin-top: 250px;
+}
+h1, h4 {
+    color: #e6c884;
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+    font-family: 'Luckiest Guy', cursive;
+    text-align: center;
+}
+#video {
+    width: auto;
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+}
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    border-radius: 0px 10px 0px 10px;
+}
+.cheese {
+    display: flex;
+    margin: 0 auto;
+    height: 200px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.description {
+    padding: 10px;
+}
+#products .parmesan, .brie, .cheddar, .swiss {
+    flex-basis: 25%;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 5px 10px 10px black;
+}
+footer {
+    margin-top: 20px;
+}
